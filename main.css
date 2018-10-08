@@ -56,7 +56,7 @@ li{
     background-color: deeppink;
     color:white
 }
-    
+
 /* Highlight current link */
 
 body#allbuns a#allbunsnav {
@@ -96,7 +96,7 @@ body#allbuns a#allbunsnav {
     flex-wrap:wrap;
     padding: 10px 4px;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 50px 50px;    
+    grid-template-rows: 50px 50px;
     width: 120%;
     height: auto;
     overflow: hidden;
@@ -121,7 +121,7 @@ body#allbuns a#allbunsnav {
     margin: 5px;
     text-align:center;
     margin:20px auto;
-    font-size: 12px; 
+    font-size: 12px;
 }
 
 .thumbnail a {
@@ -152,10 +152,15 @@ body#allbuns a#allbunsnav {
     width: 35%;
     position: fixed;
     left:40%;
-    top:20%;
+    top:24%;
 }
 
 /* Left Column */
+.left-column a{
+    font-size: 12px;
+    text-decoration: none;
+}
+
 .left-column img {
     width: 50%;
     height: auto;
@@ -185,8 +190,6 @@ body#allbuns a#allbunsnav {
 .glazing {
     padding-top: 10px;
 }
-
-
 
 .myButton {
     background-color: deeppink;
